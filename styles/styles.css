@@ -297,3 +297,7 @@ flex-wrap: wrap;
         width: 100%;
     }
 }
+
+.navbar1:hover{
+    height: 300px;
+}
