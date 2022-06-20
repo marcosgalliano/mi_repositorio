@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" >
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+           <div class="imagenesIndex">
+               <img src="../assets/logooo.png" alt="logo" class="foto__logo" />
+               <img src="../assets/foodtruckpuertodefrutos.jpg" class="foto__fondo"/>
+           </div>
+             <div class="divNavbar">
+               <nav>
+               <ul>
+                  <li><a href="../index.html" class="navbar1"> INICIO </a></li> 
+                  <li><a href="../pages/menu.html" class="navbar1"> MENU</a></li> 
+                  <li><a href="../pages/contacto.html"class="navbar1"> CONTACTO</a></li> 
+                  <li><a href="../pages/Locales.html"class="navbar1"> LOCALES</a></li> 
+                  <li><a href="../pages/Reserva.html"class="navbar1"> RESERVAS</a></li>
+               </ul>
+               </nav>
+            </div>
+        </div>
+     </header>
+    <main>
+       <div class="body_div">
+           <img src="../assets/reservaspuntodelta.jpg" class="bodyDiv_img">
+       </div>
+      <hr />
+      <h2 class="reservax"> RESERVA </h2>
+        <section class="reserva">
+            <form>
+                <label for="nombre">
+                    Nombre
+                </label>
+                <input type="text" id="nombre" />
+                <br class="reserva_br768">
+                    Apellido
+                </label>
+                <input type="text" id="apellido" />
+                <hr />
+                <h3> Elegir Local </h3>
+                <select>
+                    <option selected="selected"> LOCAL </option>
+                    <option> Puerto de Frutos </option>
+                    <option> Euskal Herria Plaza</option>
+                </select>
+                <hr />
+               <h3>
+                   Cantidad de Personas
+               </h3>
+               <select>
+                   <option> 1 Personas </option>
+                   <option> 2 Personas </option>
+                   <option> 3 Personas </option>
+                   <option> 4 Personas </option>
+                   <option> +5 Personas </option>
+               </select>
+               <hr />
+               <label for="Fecha"> Dia de la Reserva </label>
+               <br />
+               <input type="datetime-local" id="Fecha de reserva" name="Elegir fecha" value="17-05-22T00:00" min="17-05-22T10:00" max="01-01-23T23:59" >
+               <hr />
+               <label> 
+                   Queres que te enviemos un recordatorio para la Reserva?
+               </label>
+               <br />
+               <span> SI </span>
+                <input type="radio"  name="SINO" />
+               <span> NO </span>
+                <input type="radio" name="SINO" />
+               <br />
+                <input type="submit" />
+            </form>
+        </section>
+            <hr />
+    </main>
+                <footer class="footer">
+                    <h5 class="footer_h5">
+                       VIVI LA MEJOR GASTRONOMIA DE TODO TIGRE JUNTO AL RIO <br> TE ESPERAMOS ! 
+                    </h5>
+                       <a href="https://www.instagram.com/puntodelta_ba/"> SEGUINOS EN INSTAGRAM </a>
+                </footer>
+</body>
+</html>
