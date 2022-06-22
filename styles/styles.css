@@ -31,6 +31,8 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 .divNavbar ul li{
     display: inline-block;
@@ -41,8 +43,8 @@
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 15px 116px;
     transition: 0.5s;
+    padding: 15px 118px;
 }
 
 .footer_h5 {
