@@ -64,7 +64,7 @@ width: 400px;
     color: #fff;
     background-color: rgb(27, 25, 25);
     height: 400px;
-    font-size: 30px;
+    font-size: 14px;
 }
 
 .localesletra{
@@ -274,7 +274,7 @@ flex-wrap: wrap;
         height: 250px;
     }
     .reserva{
-        font-size: 27px;
+        font-size: 15px;
     }
 }
 
@@ -299,4 +299,9 @@ flex-wrap: wrap;
         width: 100%;
     }
 }
+
+.reservax{
+    margin: 0px;
+}
+
 
