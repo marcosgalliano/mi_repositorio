@@ -44,7 +44,7 @@
     text-decoration: none;
     display: block;
     transition: 0.5s;
-    padding: 15px 118px;
+    padding: 15px 100px;
 }
 
 .footer_h5 {
@@ -209,7 +209,7 @@ flex-wrap: wrap;
     text-align: center;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1378px){
     .foto__fondo{
         display: none;
     }
@@ -217,12 +217,12 @@ flex-wrap: wrap;
         width: 100%;
     }
     .divNavbar ul li{
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .divNavbar ul{
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
     .menuCompleto{
         display: grid;
@@ -304,4 +304,12 @@ flex-wrap: wrap;
     margin: 0px;
 }
 
+.reserva{
+    font-size: 32px;
+}
 
+@media screen and (max-width: 768px){
+    .reserva{
+        font-size: 28px;
+    }
+}
