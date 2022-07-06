@@ -1,7 +1,9 @@
-@import url(./_maps.scss);
+$backgrounds:(
+    color: rgb(0, 0, 0),
+);
 
 .body {
-    background-color: map-get($backgrounds, $color);
+    background-color: map-get($backgrounds, color);
     .imagenesIndex{
         display: flex;
     }
@@ -67,6 +69,9 @@
         background-color: rgb(23, 21, 21);
     }
     .footer_h5{
+        color: #fff;
+    }
+    .hola1{
         color: #fff;
     }
 }
