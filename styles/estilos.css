@@ -1,5 +1,6 @@
 .body {
   background-color: rgb(0, 0, 0);
+  /* map get aplicado */
 }
 .body .imagenesIndex {
   display: flex;
@@ -65,6 +66,15 @@
 .body .footer_h5 {
   color: #fff;
 }
-.body .hola1 {
-  color: #fff;
+.body .boton1, .body .boton2 {
+  background-color: red;
+  /* mixin aplicado */
+  padding: 5px;
+  margin: 5px;
+  border: 2px dashed blue;
+  border-radius: 2px;
+}
+.body .boton2 {
+  background-color: green;
+  /* extend aplicado */
 }/*# sourceMappingURL=estilos.css.map */

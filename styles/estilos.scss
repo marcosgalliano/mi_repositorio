@@ -2,8 +2,16 @@ $backgrounds:(
     color: rgb(0, 0, 0),
 );
 
+@mixin botonmix {
+    background-color: red;     /* mixin aplicado */
+    padding: 5px;
+    margin: 5px;
+    border: 2px dashed blue;
+    border-radius: 2px;
+}
+
 .body {
-    background-color: map-get($backgrounds, color);
+    background-color: map-get($backgrounds, color);  /* map get aplicado */
     .imagenesIndex{
         display: flex;
     }
@@ -71,7 +79,11 @@ $backgrounds:(
     .footer_h5{
         color: #fff;
     }
-    .hola1{
-        color: #fff;
+    .boton1{
+        @include botonmix; 
+    }
+    .boton2{
+        @extend .boton1;
+        background-color: green;      /* extend aplicado */
     }
 }
