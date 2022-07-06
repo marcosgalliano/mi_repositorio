@@ -1,5 +1,7 @@
+@import url(./_maps.scss);
+
 .body {
-    background-color: rgb(0, 0, 0);
+    background-color: map-get($backgrounds, $color);
     .imagenesIndex{
         display: flex;
     }
