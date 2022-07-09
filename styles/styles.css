@@ -22,10 +22,9 @@
     border: 1px solid white;
 }
 
-/* .body {
-    background-color: rgb(0, 0, 0);
-} */
-
+.body{
+    background-color: black;
+}
 .divNavbar ul{
     list-style: none;
     margin: 0;
