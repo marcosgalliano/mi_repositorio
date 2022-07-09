@@ -248,7 +248,7 @@ flex-wrap: wrap;
         grid-area: parrafo;
     }
     .indexH1_parrafo{
-        font-size: 100%;
+        font-size: 21px;
     }
     .video{
         grid-area: video;
@@ -308,5 +308,11 @@ flex-wrap: wrap;
 @media screen and (max-width: 768px){
     .reserva{
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .reserva{
+        font-size: 27px;
     }
 }
