@@ -1,0 +1,30 @@
+.localesletra{
+    color: #fff;
+}
+
+.localesdiv {
+    text-align: center;
+    background-color: rgb(22, 21, 21);
+}
+
+.local1:hover{
+    -webkit-transform: scale(1.1); transform: scale(1.02);
+    overflow: hidden;
+}
+
+.local2:hover{
+    -webkit-transform: scale(1.1); transform: scale(1.02);
+    overflow: hidden;
+}
+
+.local1 {
+    width: 650px;
+    height: 390px;
+    transition: 1s;
+}
+
+.local2 {
+    width: 650px;
+    height: 390px;
+    transition: 1s;
+}
