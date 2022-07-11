@@ -7,39 +7,6 @@
 .body {
   background-color: black;
 }
-.body .imagenesIndex {
-  display: flex;
-}
-.body .foto__fondo {
-  width: 100%;
-  height: 200px;
-}
-.body .foto__logo {
-  width: 400px;
-  height: 200px;
-}
-.body .divNavbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-}
-.body .divNavbar ul li {
-  display: inline-block;
-  border: 1px solid white;
-}
-.body .divNavbar ul li a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  transition: 0.5s;
-  padding: 15px 100px;
-}
-.body .navbar1:hover {
-  background: rgb(52, 35, 93);
-}
 .body .home_contenedorPrincipal {
   width: 100%;
   height: 500px;
@@ -64,12 +31,6 @@
 .body .videoo {
   height: 200px;
   width: 100%;
-}
-.body .footer {
-  background-color: rgb(23, 21, 21);
-}
-.body .footer_h5 {
-  color: #fff;
 }
 
 .foto__logo {
@@ -182,60 +143,8 @@
   text-align: center;
 }
 
-.foto__logo {
-  width: 400px;
-  height: 200px;
-}
-
-.body {
-  background-color: black;
-}
-
-.divNavbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-}
-
-.divNavbar ul li {
-  display: inline-block;
-  border: 1px solid white;
-}
-
-.divNavbar ul li a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  transition: 0.5s;
-  padding: 15px 100px;
-}
-
-.footer_h5 {
-  color: #fff;
-}
-
-.navbar1:hover {
-  background: rgb(52, 35, 93);
-}
-
 .contactosletra {
   color: #fff;
-}
-
-.foto__fondo {
-  width: 100%;
-  height: 200px;
-}
-
-.imagenesIndex {
-  display: flex;
-}
-
-.footer {
-  background-color: rgb(23, 21, 21);
 }
 
 @media screen and (max-width: 1378px) {
