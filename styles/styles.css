@@ -25,6 +25,7 @@
 .body{
     background-color: black;
 }
+
 .divNavbar ul{
     list-style: none;
     margin: 0;
@@ -77,11 +78,6 @@ width: 400px;
 .menuletra {
     color: #fff;
     text-align: center;
-}
-
-.productoestrella {
-    color: rgb(252, 2, 2);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .localesdiv {
