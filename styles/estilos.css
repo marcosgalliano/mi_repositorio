@@ -31,6 +31,9 @@
 .body .videoo {
   height: 200px;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px dashed grey;
 }
 
 .foto__logo {
