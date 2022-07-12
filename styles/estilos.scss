@@ -15,7 +15,7 @@
 
 /*  MEDIAQUERIES */
 
- @media screen and (max-width: 1378px){
+@media screen and (max-width:1378px) {
     .foto__fondo{
         display: none;
     }
@@ -54,18 +54,14 @@
     .parrafo{
         grid-area: parrafo;
     }
-    .indexH1_parrafo{
-        font-size: 21px;
-    }
+
     .video{
         grid-area: video;
     }
     .videoo{
         height: 100%;
     }
-    .indexH4_parrafo{
-        font-size: 97%;
-    }
+
     .menuCompleto{
         text-align: center;
     }
