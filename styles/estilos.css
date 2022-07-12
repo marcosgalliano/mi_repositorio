@@ -36,6 +36,7 @@
 .body .video {
   grid-area: video;
   text-align: center;
+  margin-top: 10px;
 }
 .body .videoo {
   height: 200px;
