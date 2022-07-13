@@ -26,7 +26,7 @@
   font-size: 60px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(27, 5, 74);
 }
 .body .indexh4_parrafo {
   text-align: center;
@@ -42,7 +42,6 @@
   width: 80%;
   margin-top: 14px;
   margin-bottom: 20px;
-  border: 1px dashed rgba(30, 97, 255, 0.257);
 }
 @media screen and (max-width: 1378px) {
   .body .indexh1_parrafo {
@@ -94,7 +93,7 @@
   text-decoration: none;
   display: block;
   transition: 0.5s;
-  padding: 15px 100px;
+  padding: 15px 115px;
 }
 
 .footer_h5 {
@@ -208,13 +207,13 @@
 
 .reserva {
   color: #fff;
-  background-color: rgb(27, 25, 25);
+  background-color: rgb(0, 0, 0);
   height: 400px;
   font-size: 14px;
 }
 
 /*  MEDIAQUERIES */
-@media screen and (max-width: 1378px) {
+@media screen and (max-width: 1496px) {
   .foto__fondo {
     display: none;
   }
@@ -300,6 +299,6 @@
 }
 @media screen and (max-width: 358px) {
   .reserva {
-    font-size: 27px;
+    font-size: 24px;
   }
 }/*# sourceMappingURL=estilos.css.map */
