@@ -120,3 +120,14 @@
         height: 320px;
     }
 }
+
+@media screen and (min-width:1200px){
+    .foto__fondo{
+        width: 50%;
+    }
+
+    .imagenesIndex{
+        display: flex;
+        justify-content: space-between;
+    }
+}
