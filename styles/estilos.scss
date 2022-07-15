@@ -121,6 +121,12 @@
     }
 }
 
+@media  screen and (max-width: 250px) {
+    .reserva{
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width:1200px){
     .foto__fondo{
         width: 50%;
