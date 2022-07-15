@@ -166,6 +166,19 @@
   color: #fff;
 }
 
+.contactos li {
+  padding: 3px;
+}
+
+.PuertodeFrutos {
+  color: rgb(240, 116, 116);
+  font-family: "Abril Fatface", cursive;
+}
+
+.contactos {
+  height: 320px;
+}
+
 .localesletra {
   color: #fff;
 }
@@ -322,4 +335,12 @@
     display: flex;
     justify-content: space-between;
   }
+}
+.contactos li {
+  padding: 3px;
+}
+
+.PuertodeFrutos {
+  color: rgb(240, 116, 116);
+  font-family: "Abril Fatface", cursive;
 }/*# sourceMappingURL=estilos.css.map */
