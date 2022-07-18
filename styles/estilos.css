@@ -226,6 +226,11 @@
   height: 320px;
 }
 
+@media screen and (max-width: 405px) {
+  .contactos {
+    height: 400px;
+  }
+}
 .localesletra {
   color: #fff;
 }
