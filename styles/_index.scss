@@ -52,3 +52,59 @@
     }
 }
 
+.footer{
+    .redes_container ul li{
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .redes_container ul li a{
+        display: block;
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        font-size: 25px;
+        transition: .2s;
+    }
+
+    .redes_container ul:hover a{
+        filter: blur(2px);
+    }
+
+    .redes_container ul li a:hover{
+        transform: translateY(-1px) scale(1.20);
+        filter: none;
+    }
+
+    .redes_container ul li .instagram:hover{
+        background: rgb(229, 47, 90);
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+    .redes_container{
+        margin-top: 9px;
+    }
+
+    .footer_texto{
+        margin-top: 9px;
+        margin-left: 4px;
+    }
+
+    .footer_h5{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .footer_h5{
+        font-size: 12px;
+    }
+}
