@@ -14,10 +14,11 @@
 
 .contactos{
     height: 320px;
+    text-align: center;
 }
 
 @media screen and (max-width:405px) {
     .contactos{
-        height: 520px;
+        height: 460px;
     }
 }

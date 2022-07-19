@@ -41,27 +41,6 @@
     .bodyDiv_img{
         height: 100%;
     }
-    .home_contenedorPrincipal{
-        display: grid;
-        grid-template-areas: 
-        "parrafo"
-        "video";
-        grid-template-columns: 100%;
-        grid-template-rows: 50% 50%;
-        width: 100%;
-        height: 500px;
-    }
-    .parrafo{
-        grid-area: parrafo;
-    }
-
-    .video{
-        grid-area: video;
-    }
-    .videoo{
-        height: 100%;
-    }
-
     .menuCompleto{
         text-align: center;
     }

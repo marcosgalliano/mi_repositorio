@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles/estilos.css" >
     <meta name="keywords"  content="comida rapida, tigre comida, puerto de frutos, hamburguesa">
     <meta name="description" content="food truck Punto Delta, Comida rapida y exquisita. Estamos ubiacados en Tigre y Pacheco, Visitanos y descubrí el verdadero sabor de la Gloria ">
@@ -12,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/7b01bfd5ea.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
  </head>
  <body class="body">
         <header class="header">
@@ -36,8 +40,8 @@
         </header>
         <main>
         <!-- descripcion + video -->
-        <section class="home_contenedorPrincipal">
-           <div class="parrafo">
+        <section class="home_contenedorPrincipal container-fluid">
+           <div class="parrafo row">
                <h1 class="indexh1_parrafo">
                   Sobre Nosotros
                </h1>
@@ -48,11 +52,42 @@
                    Todo bajo un estricto y riguroso control de calidad específica y denominación de origen, seleccionando lo mejor y más típico de cada autonomía
                </h4>
            </div>
-           <div class="video ">
+           <div class="video_carousel">
+           <div class="video row">
          <video class="videoo" controls poster="./assets/poster.jpeg">
-           <source src="./assets/videointro.mp4" type="video/mp4">
+           <source src="./assets/videointro.mp4" type="video/mp4" class="videooo">
          </div>
          </video>
+         <div class="carousel row">
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/hamburguesacarrusel.jpeg" class="d-block w-100 carousel_img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/papasfritascarrusel.jpeg" class="d-block w-100 carousel_img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/tacoscarrusel.jpeg" class="d-block w-100 carousel_img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </div>
+      </div>
+           </div>
         </section>
         </main>
          <footer class="footer">
@@ -67,6 +102,7 @@
                </ul>
             </div>
          </footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
  </body>
 </html>
 
