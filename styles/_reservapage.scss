@@ -1,22 +1,28 @@
 .reservax {
     margin: 0px;
   }
-  
-  .reserva {
-    font-size: 32px;
-  }
 
   .reserva {
     color: #fff;
     background-color: rgb(0, 0, 0);
     height: 400px;
-    font-size: 14px;
+    font-size: 09px;
     margin-bottom: 20px;
   }
   
   @media screen and (max-width:320px){
     .body_div{
       height: 120px;
+    }
+  }
+
+  .reservaBstrap{
+    font-size: 15px;
+  }
+
+  @media screen and (max-width:379px) {
+    .reservaBstrap{
+      font-size: 13px;
     }
   }
 

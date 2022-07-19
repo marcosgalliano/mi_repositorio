@@ -96,7 +96,6 @@
 @media screen and (max-width: 358px) {
     .reserva{
         font-size: 130%;
-        height: 320px;
     }
 }
 
@@ -114,5 +113,22 @@
     .imagenesIndex{
         display: flex;
         justify-content: space-between;
+    }
+}
+@media screen and (min-width:450px) {
+    .nav_responsive{
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .divNavbar{
+        display: none;
+    }
+    .foto__logo{
+        margin-top: 44px;
+    }
+    .redes_container ul{
+        list-style: none;
     }
 }
