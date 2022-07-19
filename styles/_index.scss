@@ -10,7 +10,6 @@
     .parrafo{
         grid-area: parrafo;
         margin-top: 8px;
-        height: 240px;
     }
     .indexh1_parrafo{
         font-size: 60px;
@@ -133,5 +132,12 @@
 
     .video_carousel{
         width: 100%;
+    }
+
+    .parrafo{
+        height: 100%;
+    }
+    .indexh1_parrafo{
+        margin-bottom: 0%;
     }
 }
