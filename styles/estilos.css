@@ -284,37 +284,35 @@
   text-align: center;
 }
 
-.localesletra {
+.localesimg {
+  width: auto;
+  height: auto;
+  transition: 1s;
+}
+
+.localesimg:hover {
+  transform: scale(2, 2);
+}
+
+.descripcionLocalPDF {
+  color: #fff;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.imagenLocal_puertoderutos {
+  margin-top: 10px;
+}
+
+.hrlocales {
   color: #fff;
 }
 
-.localesdiv {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
+@media screen and (max-width: 650px) {
+  .h2h4Locales {
+    font-size: 12px;
+  }
 }
-
-.local1:hover {
-  transform: scale(1.02);
-  overflow: hidden;
-}
-
-.local2:hover {
-  transform: scale(1.02);
-  overflow: hidden;
-}
-
-.local1 {
-  width: 650px;
-  height: 390px;
-  transition: 1s;
-}
-
-.local2 {
-  width: 650px;
-  height: 390px;
-  transition: 1s;
-}
-
 .reservax {
   margin: 0px;
 }
