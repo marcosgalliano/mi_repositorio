@@ -127,7 +127,7 @@
 @media screen and (max-width:600px) {
     .carousel{
         width: 100%;
-        margin-left: 6px;
+        margin: 0px;
     }
 
     .video_carousel{
@@ -139,5 +139,9 @@
     }
     .indexh1_parrafo{
         margin-bottom: 0%;
+    }
+
+    .video{
+        display: none;
     }
 }
