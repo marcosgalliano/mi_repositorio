@@ -315,6 +315,31 @@
     font-size: 12px;
   }
 }
+@media screen and (min-width: 600px) {
+  .locales2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .locales {
+    display: none;
+  }
+  .locales2 {
+    display: block;
+  }
+  .localesimg2 {
+    width: 100%;
+    height: 100%;
+  }
+  .descripcionLocalPDF2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .hr_contactosResponsive {
+    display: none;
+  }
+}
 .reservax {
   margin: 0px;
 }
